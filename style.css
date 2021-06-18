@@ -58,6 +58,6 @@ width: calc(100%/3);
 height: 50px;
 }
 #chatswitch button {
-width: calc(100%/3);
+width: calc(100%/2);
 height: 25px;
 }
