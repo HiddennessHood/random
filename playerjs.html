@@ -1,7 +1,6 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 	<head>
-		<title></title> 
+	<title></title> 
         <meta charset="UTF-8">
         <script src='playerjs.js' type='text/javascript'></script>
 	</head>
@@ -24,7 +23,7 @@
             var p = ps[i].substr(0,ps[i].indexOf("="));
             var v = ps[i].substr(ps[i].indexOf("=")+1);
             if(p!=v){
-                vs[p] = decodeURIComponent(v+1);
+                vs[p] = decodeURIComponent(v);
             }
         }
             
