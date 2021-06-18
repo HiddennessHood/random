@@ -24,5 +24,3 @@ function openChannel(evt, channelName) {
     document.getElementById(channelName).style.display = "block";
     evt.currentTarget.className += " active";
 }
-document.getElementById("ortbutton").click();
-document.getElementById("lasqabutton").click();
