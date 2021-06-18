@@ -24,7 +24,7 @@
             var p = ps[i].substr(0,ps[i].indexOf("="));
             var v = ps[i].substr(ps[i].indexOf("=")+1);
             if(p!=v){
-                vs[p+1] = decodeURIComponent(v);
+                vs[p] = decodeURIComponent(v);
             }
         }
             
