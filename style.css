@@ -32,7 +32,7 @@ border: 0;
 }
 .chat{
 width: 100%;
-height: calc(100% - 192px - 25px);
+height: calc(100% - 192px);
 border: 0;
 }
 .tab {
