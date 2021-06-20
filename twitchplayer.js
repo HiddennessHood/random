@@ -1,4 +1,3 @@
-function pl (){
 var options = {
     width: 340,
     height: 192,
@@ -7,4 +6,3 @@ var options = {
   };
   var player = new Twitch.Player("streamerplayer", options);
   player.setVolume(1);
-}
