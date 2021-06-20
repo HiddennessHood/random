@@ -1,4 +1,18 @@
-<html>
+<script src= "https://player.twitch.tv/js/embed/v1.js"></script>
+<div id="SamplePlayerDivID"></div>
+<script type="text/javascript">
+  var options = {
+    width: 854,
+    height: 480,
+    channel: "twitchdev",
+    // Only needed if this page is going to be embedded on other websites
+    parent: ["hiddennesshood.github.io"]
+  };
+  var player = new Twitch.Player("SamplePlayerDivID", options);
+  player.setVolume(0.5);
+</script>
+
+<!-- <html>
     <head>
         <meta charset="utf-8">
         <script src="playerjs.js" type="text/javascript"></script>
@@ -57,3 +71,4 @@
   var player = new Twitch.Player("streamerplayer", options);
   player.setVolume(1);
 </script>
+ -->
