@@ -1,7 +1,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <script src= "https://player.twitch.tv/js/embed/v1.js"></script>
+<!--    <script src= "https://player.twitch.tv/js/embed/v1.js"></script> -->
         <script src="playerjs.js" type="text/javascript"></script>
         <script src="open.js" type="text/javascript"></script>
         <link rel="stylesheet" href="style.css" type="text/css">
@@ -26,7 +26,7 @@
                 </div>
             </div>
             <div class="chatzone">
-                <div id="streamerplayer"></div>
+                <iframe id="streamerplayer" src="https://player.twitch.tv/?channel=honeymad&enableExtensions=true&muted=false&parent=hiddennesshood.github.io&player=popout&volume=1"></iframe>
                 <div id="honeymad" class="tabchat">
                     <iframe class="chat" src="https://www.twitch.tv/embed/honeymad/chat?darkpopout&parent=hiddennesshood.github.io"></iframe>
                 </div>
@@ -45,7 +45,7 @@
     document.getElementById("ortbutton").click();
     document.getElementById("lasqabutton").click();
 </script>
-<script type="text/javascript">
+<!-- <script type="text/javascript">
   var options = {
     width: 340,
     height: 192,
@@ -55,4 +55,4 @@
   };
   var player = new Twitch.Player("streamerplayer", options);
   player.setVolume(1);
-</script>
+</script> -->
