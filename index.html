@@ -9,31 +9,11 @@
     <body> 
         <div class="site">
             <div class="playerzone">
-                <div id="ort" class="tabcontent">
-                    <iframe class="player" src="playerjs.html?file=https://cdn8.1internet.tv/dash-live11/streams/1tv/1tvdash.mpd&poster=https://thumbs.dfs.ivi.ru/storage15/contents/5/2/94c10289a407f209d5642162346201.jpg" type="text/html" allowfullscreen></iframe>
-                </div>
-                <div id="ort2" class="tabcontent">
-                    <iframe class="player" src="playerjs.html?file=https://meshared.ru/iptv/13.m3u8&poster=https://thumbs.dfs.ivi.ru/storage15/contents/5/2/94c10289a407f209d5642162346201.jpg" type="text/html" allowfullscreen></iframe>
-                </div>
-                <div id="vgtrk" class="tabcontent">
-                    <iframe class="player" src="https://spbtv.com/vplayer/inner/spbtvcn.html?channel_id=e11eaa55-4d3f-4ce4-95c5-fad99bcf2601"></iframe>
-                </div>
-                <div id="vgtrk2" class="tabcontent">
-                    <iframe class="player" src="playerjs.html?file=https://meshared.ru/iptv/27.m3u8&poster=https://thumbs.dfs.ivi.ru/storage15/contents/2/8/1b8d43b31310a4eba9beaf95d35be3.png" type="text/html" allowfullscreen></iframe>
-                </div>
-                <div id="matchtv" class="tabcontent">
-                    <iframe class="player" src="playerjs.html?file=https://stream2.itv.uz/1089/tracks-v1a1/index.m3u8&poster=https://cdn-assets.matchtv.ru/build/assets/images/icons/plugs/matchtv.6643d8b7.jpg" type="text/html" allowfullscreen></iframe>
-                </div>
-                <div id="matchtv2" class="tabcontent">
-                    <iframe class="player" src="playerjs.html?file=https://meshared.ru/iptv/19.m3u8&poster=https://cdn-assets.matchtv.ru/build/assets/images/icons/plugs/matchtv.6643d8b7.jpg" type="text/html" allowfullscreen></iframe>
-                </div>
-                <div class="tab" id="playerswitch">   
-                    <button class="channelbutton" onclick="openChannel(event, 'ort')" id="ortbutton">Первый канал</button>
-                    <button class="channelbutton" onclick="openChannel(event, 'ort2')" id="ortbutton">Первый канал<br>(источник 2)</button>
-                    <button class="channelbutton" onclick="openChannel(event, 'vgtrk')" id="vgtrkbutton">Россия 1</button>
-                    <button class="channelbutton" onclick="openChannel(event, 'vgtrk2')" id="vgtrkbutton">Россия 1<br>(источник 2)</button>
-                    <button class="channelbutton" onclick="openChannel(event, 'matchtv')" id="matchtvbutton">Матч ТВ</button>
-                    <button class="channelbutton" onclick="openChannel(event, 'matchtv2')" id="matchtvbutton">Матч ТВ<br>(источник 2)</button>
+                <iframe class="player" src="playerjs.html?file=https://cdn8.1internet.tv/dash-live11/streams/1tv/1tvdash.mpd&poster=https://thumbs.dfs.ivi.ru/storage15/contents/5/2/94c10289a407f209d5642162346201.jpg" type="text/html" allowfullscreen></iframe>
+                <div class="tab">   
+                    <div>
+                        Теперь каналы переключаются в плеере
+                    </div>
                 </div>
             </div>
             <div class="chatzone">
@@ -53,6 +33,5 @@
     </body>
 </html>
 <script>
-    document.getElementById("ortbutton").click();
     document.getElementById("lasqabutton").click();
 </script>
