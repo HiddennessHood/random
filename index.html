@@ -13,21 +13,35 @@
                 <iframe class="player" src="playerjs.html?file=playlist.txt" type="text/html" allowfullscreen></iframe>
             </div>
             <div class="chatzone">
-                <iframe class="streamerplayer" src="https://player.twitch.tv/?channel=melharucos&enableExtensions=true&muted=false&parent=hiddennesshood.github.io&player=popout&volume=1"></iframe>
-                <div id="melharucos" class="tabchat">
-                    <iframe class="chat" src="https://www.twitch.tv/embed/melharucos/chat?darkpopout&parent=hiddennesshood.github.io"></iframe>
+                <div id="honeymadv" class="twpl">
+                    <iframe class="streamerplayer" src="https://player.twitch.tv/?channel=honeymad&enableExtensions=true&muted=false&parent=hiddennesshood.github.io&player=popout&volume=1"></iframe>
+                </div>
+                <div id="segallv" class="twpl">
+                    <iframe class="streamerplayer" src="https://player.twitch.tv/?channel=segall&enableExtensions=true&muted=false&parent=hiddennesshood.github.io&player=popout&volume=1"></iframe>
+                </div>
+                <div class="tab" id="tswitch">   
+                    <button class="vbutton" onclick="openv(event, 'honeymadv')" id="honeymadvbutton">Вебка Honeymad</button>
+                    <button class="vbutton" onclick="openv(event, 'segallv')" id="segallvbutton">Вебка Segall</button>
+                </div>
+                <div id="honeymad" class="tabchat">
+                    <iframe class="chat" src="https://www.twitch.tv/embed/honeymad/chat?darkpopout&parent=hiddennesshood.github.io"></iframe>
                 </div>
                 <div id="lasqa" class="tabchat">
                     <iframe class="chat" src="https://www.twitch.tv/embed/lasqa/chat?darkpopout&parent=hiddennesshood.github.io"></iframe>
                 </div>
+                <div id="segall" class="tabchat">
+                    <iframe class="chat" src="https://www.twitch.tv/embed/segall/chat?darkpopout&parent=hiddennesshood.github.io"></iframe>
+                </div>
                 <div class="tab" id="chatswitch">   
-                    <button class="chatbutton" onclick="openChat(event, 'melharucos')" id="melbutton">Melharucos</button>
+                    <button class="chatbutton" onclick="openChat(event, 'honeymad')" id="madbutton">HoneyMad</button>
                     <button class="chatbutton" onclick="openChat(event, 'lasqa')" id="lasqabutton">Lasqa</button>
+                    <button class="chatbutton" onclick="openChat(event, 'segall')" id="segallbutton">Segall</button>
                 </div>
             </div>
         </div>
     </body>
 </html>
 <script>
-    document.getElementById("melbutton").click();
+    document.getElementById("honeymadvbutton").click();
+    document.getElementById("lasqabutton").click();
 </script>
