@@ -13,7 +13,7 @@ function openChat(evt, chatName) {
 }
 function openv(evt, chatName) {
     var i, tabcontent, tablinks;
-    tabcontent = document.getElementsByClassName("tabchat");
+    tabcontent = document.getElementsByClassName("twpl");
     for (i = 0; i < tabcontent.length; i++) {
         tabcontent[i].style.display = "none";
     }
