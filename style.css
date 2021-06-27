@@ -32,7 +32,7 @@ border: 0;
 }
 .chat{
 width: 100%;
-height: calc(100% - 192px - 25px);
+height: calc(100% - 192px - 25px - 25px);
 border: 0;
 }
 .tab {
@@ -54,6 +54,10 @@ background-color: #18181b;
 color: #ffffff;
 }
 #chatswitch button {
+width: calc(100%/3);
+height: 25px;
+}
+#tswitch button {
 width: calc(100%/2);
 height: 25px;
 }
