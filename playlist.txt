@@ -1,5 +1,4 @@
 [
-{"title":"Матч ТВ (Оф)","file":"https://live-202.zxz.su/LIVE/LIVE:133529/HLS/1624893793/PcsuwrDNc_3d4FrQ9dBUtQ/live/133529_4/chunklist.m3u8"},
 {"title":"Матч ТВ (Источник 1)","file":"https://meshared.ru/iptv/19.m3u8"},
 {"title":"Матч ТВ (Источник 2)","file":"https://stream2.itv.uz/1089/tracks-v1a1/index.m3u8"}
 ]
