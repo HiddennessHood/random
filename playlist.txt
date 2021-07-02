@@ -1,4 +1,0 @@
-[
-{"title":"Матч ТВ (Источник 1)","file":"https://meshared.ru/iptv/19.m3u8"},
-{"title":"Матч ТВ (Источник 2)","file":"https://stream2.itv.uz/1089/tracks-v1a1/index.m3u8"}
-]
