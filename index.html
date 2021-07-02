@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="referrer" content="no-referrer">
+        <script src="playerjs.js" type="text/javascript"></script>
+        <script src="open.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <title>Euro 2020</title>
+    </head>
+    <body> 
+        <div class="site">
+            <div class="playerzone">
+                <div id="myplayer" class="tabcontent">
+                    <iframe class="player" src="playerjs.html?file=playlist.txt" type="text/html" allowfullscreen></iframe>
+                </div>
+                <div id="ort" class="tabcontent">
+                    <iframe class="player" src="https://static.1tv.ru/eump/embeds/public_sport.html?channel_id=1&channels_api_url=https://api.1tv.ru/v2/special/channels.json"></iframe>
+                </div>
+                <div id="vgtrk" class="tabcontent">
+                    <iframe class="player" src="https://player.vgtrk.com/iframe/live/id/2961"></iframe>
+                </div>
+                <div class="tab" id="playerswitch">
+                    <button class="channelbutton" onclick="openChannel(event, 'myplayer')" id="myplayerbutton">Все каналы<br>(Альтернативный плеер)</button>
+                    <button class="channelbutton" onclick="openChannel(event, 'ort')" id="ortbutton">Первый канал (Сток плеер)</button>
+                    <button class="channelbutton" onclick="openChannel(event, 'vgtrk')" id="vgtrkbutton">Россия 1 (Сток плеер)</button>
+                </div>
+            </div>
+            <div class="chatzone">
+                <iframe class="streamerplayer" src="https://player.twitch.tv/?channel=honeymad&enableExtensions=true&muted=false&parent=hiddennesshood.github.io&player=popout&volume=1"></iframe>
+                <div id="honeymad" class="tabchat">
+                    <iframe class="chat" src="https://www.twitch.tv/embed/honeymad/chat?darkpopout&parent=hiddennesshood.github.io"></iframe>
+                </div>
+                <div id="lasqa" class="tabchat">
+                    <iframe class="chat" src="https://www.twitch.tv/embed/lasqa/chat?darkpopout&parent=hiddennesshood.github.io"></iframe>
+                </div>
+                <div id="segall" class="tabchat">
+                    <iframe class="chat" src="https://www.twitch.tv/embed/segall/chat?darkpopout&parent=hiddennesshood.github.io"></iframe>
+                </div>
+                <div class="tab" id="chatswitch">   
+                    <button class="chatbutton" onclick="openChat(event, 'honeymad')" id="madbutton">HoneyMad</button>
+                    <button class="chatbutton" onclick="openChat(event, 'lasqa')" id="lasqabutton">Lasqa</button>
+                    <button class="chatbutton" onclick="openChat(event, 'segall')" id="segallbutton">Segall</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+<script>
+    document.getElementById("lasqabutton").click();
+    document.getElementById("myplayerbutton").click();
+</script>
