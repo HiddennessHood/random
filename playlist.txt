@@ -1,5 +1,0 @@
-[
-{"title":"SporTV Бразилия (все матчи)","file":"https://e10.cdnfoxtv.me/ingestbr/spain/master.m3u8"},
-{"title":"Первый канал","file":"https://meshared.ru/iptv/13.m3u8"},
-{"title":"Россия 1","file":"https://meshared.ru/iptv/27.m3u8"}
-]
