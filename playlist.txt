@@ -1,8 +1,6 @@
 [
 {"title":"Матч ТВ (Источник 1)","file":"https://meshared.ru/iptv/19.m3u8"},
-{"title":"Матч ТВ (Источник 2)","file":"https://stream2.itv.uz/1089/tracks-v1a1/index.m3u8"},
-{"title":"Матч ТВ Низкая задержка (работает в Safari) ","file":"https://live-204.zxz.su/LIVE/LIVE:133529/HLS/1625407923/r1bmZzu8kCx-xUa2okwK3w/live/133529_4/chunklist.m3u8"},
-{"title":"Матч ТВ Без комментаторов (работает в Safari) ","file":"https://live-204.zxz.su/LIVE/LIVE:488862/HLS/1625419099/hMI4Iedl96zWj8sUFf_BXw/live/488862_4/chunklist.m3u8"}
+{"title":"Матч ТВ (Источник 2)","file":"https://stream2.itv.uz/1089/tracks-v1a1/index.m3u8"}
 ]
 
 
