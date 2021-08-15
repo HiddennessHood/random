@@ -5,29 +5,29 @@
         <script src="playerjs.js" type="text/javascript"></script>
         <script src="open.js" type="text/javascript"></script>
         <link rel="stylesheet" href="style.css" type="text/css">
-        <title>Formula</title>
+        <title>Football</title>
     </head>
     <body> 
         <div class="site">
             <div class="playerzone">
-                <iframe class="player" src="playerjs.html?file=https://live-204.zxz.su/LIVE/LIVE:492734/HLS/1627842066/00DW9JlxcA-HSuxjFMqxoQ/live/492734_4/chunklist.m3u8" type="text/html" allowfullscreen></iframe>
+                <iframe class="player" src="playerjs.html?file=https://meshared.ru/iptv/21.m3u8" type="text/html" allowfullscreen></iframe>
             </div>
             <div class="chatzone">
-                <iframe class="streamerplayer" src="https://player.twitch.tv/?channel=melharucos&enableExtensions=true&muted=false&parent=hiddennesshood.github.io&player=popout&volume=1"></iframe>
-                <div id="mel" class="tabchat">
-                    <iframe class="chat" src="https://www.twitch.tv/embed/melharucos/chat?darkpopout&parent=hiddennesshood.github.io"></iframe>
-                </div>
+                <iframe class="streamerplayer" src="https://player.twitch.tv/?channel=lasqa&enableExtensions=true&muted=false&parent=hiddennesshood.github.io&player=popout&volume=1"></iframe>
                 <div id="lasqa" class="tabchat">
                     <iframe class="chat" src="https://www.twitch.tv/embed/lasqa/chat?darkpopout&parent=hiddennesshood.github.io"></iframe>
                 </div>
+                <div id="mel" class="tabchat">
+                    <iframe class="chat" src="https://www.twitch.tv/embed/melharucos/chat?darkpopout&parent=hiddennesshood.github.io"></iframe>
+                </div>
                 <div class="tab" id="chatswitch">   
-                    <button class="chatbutton" onclick="openChat(event, 'mel')" id="melbutton">Melharucos</button>
                     <button class="chatbutton" onclick="openChat(event, 'lasqa')" id="lasqabutton">Lasqa</button>
+                    <button class="chatbutton" onclick="openChat(event, 'mel')" id="melbutton">Melharucos</button>
                 </div>
             </div>
         </div>
     </body>
 </html>
 <script>
-    document.getElementById("melbutton").click();
+    document.getElementById("lasqabutton").click();
 </script>
