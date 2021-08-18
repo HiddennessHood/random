@@ -32,28 +32,6 @@ border: 0;
 }
 .chat{
 width: 100%;
-height: calc(100% - 192px - 25px);
+height: calc(100% - 192px);
 border: 0;
-}
-.tab {
-display: flex;
-}
-.tab button {
-background-color: #101012;
-font-weight: bold;
-color: #999999;    
-outline: none;
-border: none;
-cursor: pointer;
-}
-.tab button:hover {
-color: #ffffff;
-}
-.tab button.active {
-background-color: #18181b;    
-color: #ffffff;
-}
-#chatswitch button {
-width: calc(100%/2);
-height: 25px;
 }
