@@ -1,6 +1,8 @@
 [
+
 {"title":"Матч ТВ","file":"https://meshared.ru/iptv/19.m3u8"},
-{"title":"Матч Премьер","file":"https://meshared.ru/iptv/21.m3u8"}
+{"title":"Матч Премьер","file":"https://meshared.ru/iptv/21.m3u8"},
+{"title":"КИНОСТРИМ","file":"https://meshared.ru/iptv/21.m3u8"}
 ]
 
 
