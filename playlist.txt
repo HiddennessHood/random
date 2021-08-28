@@ -1,7 +1,4 @@
 [
 {"title":"Матч ТВ","file":"https://meshared.ru/iptv/19.m3u8"},
-{"title":"Матч Премьер","file":"https://meshared.ru/iptv/21.m3u8"},
-{"title":"Секретный канал (не включать(я предупредил))","file":"https://meshared.ru/iptv/26.m3u8"}
+{"title":"Матч Премьер","file":"https://meshared.ru/iptv/21.m3u8"}
 ]
-
-
