@@ -1,5 +1,4 @@
 [
-{"title":"Матч ТВ","file":"https://meshared.ru/iptv/19.m3u8"},
-{"title":"Матч Премьер","file":"https://meshared.ru/iptv/21.m3u8"},
-{"title":"Матч","file":"https://live-1-201.zxz.su/stream/1054/HLS/SD/yQEe7YRPq6yLDKiRsuMYAw/1635899362/S-QUk3dExLMlF6U1hHR1pXYXh4SnV5RnJuYlB6bFR2ZVZqU1lHOG5LdE1TYmZqbjNlVm5CMWpZbVNSN29POEFFUUl3SEUzdlNZeXhZcVd5OHN4Ymsyenc9PQ==/move/four/dirs/upper/1054-576p.m3u8"}
+{"title":"Матч ТВ","file":"https://live-1-201.zxz.su/stream/1054/HLS/SD/yQEe7YRPq6yLDKiRsuMYAw/1635899362/S-QUk3dExLMlF6U1hHR1pXYXh4SnV5RnJuYlB6bFR2ZVZqU1lHOG5LdE1TYmZqbjNlVm5CMWpZbVNSN29POEFFUUl3SEUzdlNZeXhZcVd5OHN4Ymsyenc9PQ==/move/four/dirs/upper/1054-576p.m3u8"},
+{"title":"Матч Премьер","file":"https://meshared.ru/iptv/21.m3u8"}
 ]
