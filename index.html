@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <script src="playerjs.js" type="text/javascript"></script>
+        <script src="open.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <title>Секретный сайт</title>
+    </head>
+    <body>
+        <div class="site">
+            <div class="playerzone">
+                <iframe class="player" src="playerjs.html?file=https://video-weaver.arn03.hls.live-video.net/v1/playlist/CpEFwYdd_xS-lyMTWPQfcmBRO4xMAx4ChXJ08lsXQDcXTGdRGjFgCFxvS1rUCrp58Dy_-eEle4_4mFV8sd1zirs0K7yfkTflY2I-x7EHGH7o4nOqwc8EyrKpOjGTCVk7atHCqosBaCUOSCOcyAL9aortNoc1iRv3pg6gvEOCSB_ltrVzqBNyX3-cL3SkXaAGQnF2V6ntPKqHANpZqidOZD3s0Idt0g2z7u6gQIEREsOMxukG_8Gj36mCcPeGrbfVl9rpGymNIKsk65s1BCqrsDfbFyM1m3lLIHY_CKhLS-PPu119qR0WAuj0XbmCuBjPHBs47XiyXmMWdFJP8gWksRXGJtVnXmttx-FHXHUjvdTumHwfeXy6GKRLt_o-yrpahWG362MejXe6HrzNWMO0r22vohRF81IXC07L3z5n6wvXTDCbCXacUdysz4tRRZ9rA7XRl-OkcKvkUK9SDKUmsmwUiBtOUNS92XNvs27YmRcl6JSj6g2THJVDLgyM1yipGQd1-9UYwiuUI07WVsN3BDKUEC1BTl9iOEdXtePFA7izQZazdw-3DDMtsiVf8tSEHWvKN3BK4Q14ZL0WIamsooH38gKE2to_OfFxjWn3YXdJ7zf2DQoaR4Z4lwVIj_AAsDbznSoRMgMuOGVyjIhKhNmmB803GXIOP0d56zLFr-PaDlL2_zn_1Gsw2kH86e1XwH-3eKCt2ePQRPnXMppz6q7zD4YvTh1UA6gBJW0hL5ziVoJOXL5-sjHYWaG2bs7bVVHWUV_829NjIfAhGjLBtdqSZ27ngjDKNm7iBsajYT3FTlEVVfE8WNNU_er9lw6SBUcqpRJe4REEq8iZgu7R6Zkwi6dpBRLaYsRpSg31QqDsQUFSGgxUEoPMFfSm5QxtxeEgASoJZXUtd2VzdC0yMKoD.m3u8" type="text/html" allowfullscreen></iframe>
+            </div>
+            <div class="chatzone">
+                <iframe class="streamerplayer" src="https://player.twitch.tv/?channel=melharucos&enableExtensions=true&muted=false&parent=hiddennesshood.github.io&player=popout&volume=1"></iframe>
+                <div id="twitch" class="tabchat">
+                    <iframe class="chat" src="https://www.twitch.tv/embed/melharucos/chat?darkpopout&parent=hiddennesshood.github.io"></iframe>
+                </div>
+                <div id="goodgame" class="tabchat">
+                    <iframe class="chat" src="https://www.twitch.tv/embed/lasqa/chat?darkpopout&parent=hiddennesshood.github.io"></iframe>
+                </div>
+                <div class="tab" id="chatswitch">
+                    <button class="chatbutton" onclick="openChat(event, 'twitch')" id="twitchbutton">Melharucos</button>
+                    <button class="chatbutton" onclick="openChat(event, 'goodgame')" id="twitchbutton2">Lasqa</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+<script>
+    document.getElementById("twitchbutton").click();
+</script>
