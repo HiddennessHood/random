@@ -8,19 +8,19 @@
     </head>
     <body>
         <div class="site">
-            <div class="playerzone">
+<!--             <div class="playerzone">
                 <iframe class="player" src="playerjs.html?file=https://popov.wroomwroom.net/hls/0/stream.m3u8&poster=https://wallpaperscave.com/images/thumbs/download/1920x1080/18/09-17/sports-f1-84834.jpg" type="text/html" allowfullscreen></iframe>
-                </div>
+            </div> -->
             <div class="chatzone">
                 <iframe class="streamerplayer" src="https://player.twitch.tv/?channel=melharucos&enableExtensions=true&muted=false&parent=hiddennesshood.github.io&player=popout&volume=1"></iframe>
-                <div id="twitch" class="tabchat">
+<!--                 <div id="twitch" class="tabchat">
                     <iframe class="chat" src="https://www.twitch.tv/embed/melharucos/chat?darkpopout&parent=hiddennesshood.github.io"></iframe>
-                </div>
+                </div> -->
                 <div id="goodgame" class="tabchat">
                     <iframe class="chat" src="https://www.twitch.tv/embed/lasqa/chat?darkpopout&parent=hiddennesshood.github.io"></iframe>
                 </div>
                 <div class="tab" id="chatswitch">
-                    <button class="chatbutton" onclick="openChat(event, 'twitch')" id="twitchbutton">Melharucos</button>
+<!--                     <button class="chatbutton" onclick="openChat(event, 'twitch')" id="twitchbutton">Melharucos</button> -->
                     <button class="chatbutton" onclick="openChat(event, 'goodgame')" id="twitchbutton2">Lasqa</button>
                 </div>
             </div>
@@ -28,5 +28,5 @@
     </body>
 </html>
 <script>
-    document.getElementById("twitchbutton").click();
+    document.getElementById("twitchbutton2").click();
 </script>
